@@ -1,17 +1,16 @@
 waipy
 =====
-This guide includes a Continuous Wavelet Transform (CWT), significance  tests
-from based on Torrence and Compo (1998)
+This guide includes a Continuous Wavelet Transform (CWT)based on Torrence and Compo (1998) + significance  tests
 ![ScreenShot](https://github.com/mabelcalim/waipy/blob/master/Sine.png)
 
 
-and Cross Wavelet Analysis  (CWA) based on Maraun and Kurths(2004).
+and Cross Wavelet Analysis(CWA) based on Maraun and Kurths(2004).
 
 Cross Power Wavelet Analysis:
-    ![ScreenShot](https://github.com/mabelcalim/waipy/blob/master/waipy_examples_jupyter/Jupyter/figs/CrossWavelet_noise_example.png)
+    ![ScreenShot](https://github.com/mabelcalim/waipy/blob/master/examples/figs/CrossWavelet_noise_example.png)
 
 Wavelet Coherence Analysis:
-    ![ScreenShot](https://github.com/mabelcalim/waipy/blob/master/waipy_examples_jupyter/Jupyter/figs/CohereWavelet_noise_example.png)
+    ![ScreenShot](https://github.com/mabelcalim/waipy/blob/master/examples/figs/CohereWavelet_noise_example.png)
 
 
 Installation
@@ -77,7 +76,7 @@ The following packages are required (tested on Debian Wheezy):
 * netcdf4 (https://github.com/Unidata/netcdf4-python.git)
 
 
-Installing requirements for python3
+Installing requirements for python3 and 3.8
 ============
 
 * pip3 install numpy
@@ -93,15 +92,26 @@ As a tip, try to use jupyter !
 Examples
 ============
 
-* [Waipy examples](https://github.com/mabelcalim/waipy/blob/master/waipy_examples_jupyter/Jupyter) 
+
+* [Nino3 SST seasonal](https://github.com/mabelcalim/waipy/blob/master/examples/Nino3%20example.ipynb)
+* [Sine and Cosine](https://github.com/mabelcalim/waipy/blob/master/examples/Example%201%20Sine%20and%20Waipy%20.ipynb)
+* [Random signal](https://github.com/mabelcalim/waipy/blob/master/examples/Example%202%20random%20signals.ipynb)
+* [Noisy signals](https://github.com/mabelcalim/waipy/blob/master/examples/Example%203%20signals%20with%20noise.ipynb)
+* [Frequency change](https://github.com/mabelcalim/waipy/blob/master/examples/cwa_changeFreq_example.ipynb)
 
 Use waipy without install it!
 ============
 Check the prêt-à-porter.ipynb examples!!!
-* [waipy prêt-à-porter.ipynb](https://github.com/mabelcalim/waipy/blob/master/waipy_examples_jupyter/waipy_pr%C3%AAt-%C3%A0-porter.ipynb)
-*  [cwa prêt-à-porter.ipynb](https://github.com/mabelcalim/waipy/blob/master/waipy_examples_jupyter/cwa_pr%C3%AAt-%C3%A0-porter.ipynb)
+* [waipy prêt-à-porter.ipynb](https://github.com/mabelcalim/waipy/blob/master/examples/waipy_prêt-à-porter.ipynb)
+* [cwa prêt-à-porter.ipynb](https://github.com/mabelcalim/waipy/blob/master/examples/cwa_prêt-à-porter.ipynb)
 
 Support Group
 ==============
 
 [waipy users support group](https://groups.google.com/forum/?hl=en#!forum/waipy-users-support)
+
+
+Acknowledgments
+==============
+Thanks to my dear wavelet teacher: [Margarete Oliveira Domingues](http://www.lac.inpe.br/~margarete/) 
+
